@@ -1,0 +1,3 @@
+do {
+  puts("Inicio correcto");
+} while (1);

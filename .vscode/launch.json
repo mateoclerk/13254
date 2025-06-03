@@ -1,14 +1,41 @@
 {
-    "version": "2.0.0",
-    "configurations": [
+  "version": "2.0.0",
+  "configurations": [
     {
-    "name": "Debug ANTLR4 grammar",
-    "type": "antlr-debug",
-    "request": "launch",
-    "input": "input.txt",
-    "grammar": "Calculator.g4",
-    "printParseTree": true,
-    "visualParseTree": true
+      "name": "Debug InputCorrecto1",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "InputCorrecto1.txt",
+      "grammar": "SimpleLang.g4",
+      "printParseTree": true,
+      "visualParseTree": true
+    },
+    {
+      "name": "Debug InputCorrecto2",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "InputCorrecto2.txt",
+      "grammar": "SimpleLang.g4",
+      "printParseTree": true,
+      "visualParseTree": true
+    },
+    {
+      "name": "Debug InputIncorrecto1",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "InputIncorrecto1.txt",
+      "grammar": "SimpleLang.g4",
+      "printParseTree": true,
+      "visualParseTree": true
+    },
+    {
+      "name": "Debug InputIncorrecto2",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "InputIncorrecto2.txt",
+      "grammar": "SimpleLang.g4",
+      "printParseTree": true,
+      "visualParseTree": true
     }
-    ]
+  ]
 }

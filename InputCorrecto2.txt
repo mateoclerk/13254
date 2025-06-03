@@ -1,0 +1,5 @@
+do {
+  puts("Mensaje 1");
+  break;
+  puts("Mensaje 2");
+} while (0);
